@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownButton should render component with required props 1`] = `
+<OutsideClickHandler
+  disabled={false}
+  display="block"
+  onOutsideClick={[Function]}
+  useCapture={true}
+>
+  <styled.div>
+    <Button
+      onClick={[Function]}
+      size="medium"
+    >
+      <ReactComponent
+        height={24}
+        width={24}
+      />
+    </Button>
+    <Styled(OverflowMenu)
+      hideDropdownIndicator={true}
+      innerRef={
+        Object {
+          "current": null,
+        }
+      }
+      list={
+        Array [
+          Object {
+            "label": "foo",
+            "value": 1,
+          },
+          Object {
+            "label": "bar",
+            "value": 2,
+          },
+          Object {
+            "label": "baz",
+            "value": 3,
+          },
+        ]
+      }
+      menu={
+        Object {
+          "opened": false,
+        }
+      }
+      onChange={[Function]}
+    />
+  </styled.div>
+</OutsideClickHandler>
+`;

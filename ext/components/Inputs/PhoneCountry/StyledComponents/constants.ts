@@ -1,0 +1,59 @@
+import {
+  ICON_SIZE_DEFAULT,
+  ICON_SIZE_MICRO,
+  INPUT_SIZE_BIG,
+  INPUT_SIZE_MICRO,
+  INPUT_SIZE_SMALL,
+} from '../../constants';
+import type { Size } from '../../common/types';
+
+const BASIC_SVG_FLAG_WIDTH = 28;
+// const BASIC_SVG_FLAG_HEIGHT = 20;
+
+export const FLAG_WIDTH_DEFAULT = 22;
+export const FLAG_WIDTH_MICRO = 18;
+export const FLAG_HEIGHT_DEFAULT = 16;
+export const FLAG_HEIGHT_MICRO = 13;
+
+const FLAG_SIZE_DEFAULT = 22;
+const FLAG_SIZE_MICRO = 18;
+
+export const FLAG_WIDTH_SCALE_DEFAULT = FLAG_WIDTH_DEFAULT / BASIC_SVG_FLAG_WIDTH;
+export const FLAG_WIDTH_SCALE_MICRO = FLAG_WIDTH_MICRO / BASIC_SVG_FLAG_WIDTH;
+
+export const DROPDOWN_OFFSET = {
+  micro: FLAG_SIZE_MICRO + (INPUT_SIZE_MICRO - FLAG_SIZE_MICRO) / 2,
+  small: FLAG_SIZE_DEFAULT + (INPUT_SIZE_SMALL - FLAG_SIZE_DEFAULT) / 2,
+  big: FLAG_SIZE_DEFAULT + (INPUT_SIZE_BIG - FLAG_SIZE_DEFAULT) / 2,
+};
+
+export const FLAG_ITEM_PADDING_LEFT = {
+  micro: 7,
+  small: 14,
+  big: 14,
+};
+export const SELECT_CONTAINER_PADDING_LEFT = FLAG_ITEM_PADDING_LEFT;
+
+const CONTAINER_ICONS_MARGIN = 10;
+
+export const CONTAINER_WIDTH = {
+  micro: CONTAINER_ICONS_MARGIN + FLAG_SIZE_MICRO + ICON_SIZE_MICRO,
+  small: CONTAINER_ICONS_MARGIN + FLAG_SIZE_DEFAULT + ICON_SIZE_DEFAULT,
+  big: CONTAINER_ICONS_MARGIN + FLAG_SIZE_DEFAULT + ICON_SIZE_DEFAULT,
+};
+
+export const CONTAINER_HEIGHT = {
+  micro: INPUT_SIZE_MICRO,
+  small: INPUT_SIZE_SMALL,
+  big: INPUT_SIZE_BIG,
+};
+
+export const OPTION_HEIGHT = {
+  micro: 32,
+  small: 40,
+  big: 48,
+};
+
+export const getInputNumberMargin = (size: Size) => {
+  return SELECT_CONTAINER_PADDING_LEFT[size] + CONTAINER_WIDTH[size] + 2;
+};

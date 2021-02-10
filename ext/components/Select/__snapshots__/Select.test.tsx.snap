@@ -1,0 +1,593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should render component with card type 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": [Function],
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "NoOptionsMessage": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  error={false}
+  isClearable={false}
+  isSearchable={false}
+  menuShouldScrollIntoView={false}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "currency": "rur",
+        "image": [Function],
+        "label": "123000.56",
+        "note": "Дебетовая карта (*7812)",
+        "value": 17812,
+      },
+      Object {
+        "currency": "usd",
+        "image": [Function],
+        "label": "905.00",
+        "note": "Кредитная карта (*1234)",
+        "value": 298,
+      },
+      Object {
+        "currency": "eur",
+        "image": [Function],
+        "label": "7775.00",
+        "note": "Дебетовая карта (*9845)",
+        "value": 334,
+      },
+    ]
+  }
+  placeholder=""
+  size="big"
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+      "input": [Function],
+      "noOptionsMessage": [Function],
+    }
+  }
+  tooltipPlaceholderRef={
+    Object {
+      "current": null,
+    }
+  }
+  type="card"
+  width="320px"
+  withoutOptionMessage="Варианты не найдены"
+/>
+`;
+
+exports[`Select should render component with disabled state 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": [Function],
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "NoOptionsMessage": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  error={false}
+  isClearable={false}
+  isDisabled={true}
+  isSearchable={false}
+  menuIsOpen={false}
+  menuShouldScrollIntoView={false}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  placeholder=""
+  size="big"
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+      "input": [Function],
+      "noOptionsMessage": [Function],
+    }
+  }
+  tooltipPlaceholderRef={
+    Object {
+      "current": null,
+    }
+  }
+  type="default"
+  width="320px"
+  withoutOptionMessage="Варианты не найдены"
+/>
+`;
+
+exports[`Select should render component with error state 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": [Function],
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "NoOptionsMessage": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  error={true}
+  isClearable={false}
+  isSearchable={false}
+  menuShouldScrollIntoView={false}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  placeholder=""
+  size="big"
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+      "input": [Function],
+      "noOptionsMessage": [Function],
+    }
+  }
+  tooltipPlaceholderRef={
+    Object {
+      "current": null,
+    }
+  }
+  type="default"
+  width="320px"
+  withoutOptionMessage="Варианты не найдены"
+/>
+`;
+
+exports[`Select should render component with label, placeholder, additionalText 1`] = `
+<StateManager
+  additionalText="Место фактического проживания"
+  components={
+    Object {
+      "ClearIndicator": [Function],
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "NoOptionsMessage": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  error={false}
+  isClearable={false}
+  isSearchable={false}
+  label="Город"
+  menuShouldScrollIntoView={false}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  placeholder="Выберите из списка"
+  size="big"
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+      "input": [Function],
+      "noOptionsMessage": [Function],
+    }
+  }
+  tooltipPlaceholderRef={
+    Object {
+      "current": null,
+    }
+  }
+  type="default"
+  width="320px"
+  withoutOptionMessage="Варианты не найдены"
+/>
+`;
+
+exports[`Select should render component with micro size 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": [Function],
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "NoOptionsMessage": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  error={false}
+  isClearable={false}
+  isSearchable={false}
+  menuShouldScrollIntoView={false}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  placeholder=""
+  size="micro"
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+      "input": [Function],
+      "noOptionsMessage": [Function],
+    }
+  }
+  tooltipPlaceholderRef={
+    Object {
+      "current": null,
+    }
+  }
+  type="default"
+  width="320px"
+  withoutOptionMessage="Варианты не найдены"
+/>
+`;
+
+exports[`Select should render component with product type 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": [Function],
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "NoOptionsMessage": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  error={false}
+  isClearable={false}
+  isSearchable={false}
+  menuShouldScrollIntoView={false}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "currency": "rur",
+        "image": [Function],
+        "label": "123000.56",
+        "note": "Дебетовая карта (*7812)",
+        "value": 17812,
+      },
+      Object {
+        "currency": "usd",
+        "image": [Function],
+        "label": "905.00",
+        "note": "Кредитная карта (*1234)",
+        "value": 298,
+      },
+      Object {
+        "currency": "eur",
+        "image": [Function],
+        "label": "7775.00",
+        "note": "Дебетовая карта (*9845)",
+        "value": 334,
+      },
+    ]
+  }
+  placeholder=""
+  size="big"
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+      "input": [Function],
+      "noOptionsMessage": [Function],
+    }
+  }
+  tooltipPlaceholderRef={
+    Object {
+      "current": null,
+    }
+  }
+  type="product"
+  width="320px"
+  withoutOptionMessage="Варианты не найдены"
+/>
+`;
+
+exports[`Select should render component with required properties 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": [Function],
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "NoOptionsMessage": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  error={false}
+  isClearable={false}
+  isSearchable={false}
+  menuShouldScrollIntoView={false}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  placeholder=""
+  size="big"
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+      "input": [Function],
+      "noOptionsMessage": [Function],
+    }
+  }
+  tooltipPlaceholderRef={
+    Object {
+      "current": null,
+    }
+  }
+  type="default"
+  width="320px"
+  withoutOptionMessage="Варианты не найдены"
+/>
+`;
+
+exports[`Select should render component with required properties and icon 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": [Function],
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "NoOptionsMessage": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  error={false}
+  isClearable={false}
+  isSearchable={false}
+  menuShouldScrollIntoView={false}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "icon": "div",
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "icon": "div",
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "icon": "div",
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  placeholder=""
+  size="big"
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+      "input": [Function],
+      "noOptionsMessage": [Function],
+    }
+  }
+  tooltipPlaceholderRef={
+    Object {
+      "current": null,
+    }
+  }
+  type="default"
+  width="320px"
+  withoutOptionMessage="Варианты не найдены"
+/>
+`;
+
+exports[`Select should render component with small size 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": [Function],
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "NoOptionsMessage": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  error={false}
+  isClearable={false}
+  isSearchable={false}
+  menuShouldScrollIntoView={false}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  placeholder=""
+  size="small"
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+      "input": [Function],
+      "noOptionsMessage": [Function],
+    }
+  }
+  tooltipPlaceholderRef={
+    Object {
+      "current": null,
+    }
+  }
+  type="default"
+  width="320px"
+  withoutOptionMessage="Варианты не найдены"
+/>
+`;

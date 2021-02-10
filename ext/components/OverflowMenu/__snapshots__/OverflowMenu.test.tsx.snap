@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OverflowMenu should render component with disabled state 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": null,
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  isDisabled={true}
+  isFocused={false}
+  isSearchable={false}
+  menuAlignment="left"
+  menuMarginTop={8}
+  menuWidth={290}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  size={24}
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+    }
+  }
+/>
+`;
+
+exports[`OverflowMenu should render component with medium size 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": null,
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  isDisabled={false}
+  isFocused={false}
+  isSearchable={false}
+  menuAlignment="left"
+  menuMarginTop={8}
+  menuWidth={290}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  size={20}
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+    }
+  }
+/>
+`;
+
+exports[`OverflowMenu should render component with required properties 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": null,
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  isDisabled={false}
+  isFocused={false}
+  isSearchable={false}
+  menuAlignment="left"
+  menuMarginTop={8}
+  menuWidth={290}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  size={24}
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+    }
+  }
+/>
+`;
+
+exports[`OverflowMenu should render component with right menu alignment 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": null,
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  isDisabled={false}
+  isFocused={false}
+  isSearchable={false}
+  menuAlignment="right"
+  menuMarginTop={8}
+  menuWidth={290}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  size={24}
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+    }
+  }
+/>
+`;
+
+exports[`OverflowMenu should render component with small size 1`] = `
+<StateManager
+  components={
+    Object {
+      "ClearIndicator": null,
+      "Control": [Function],
+      "DropdownIndicator": [Function],
+      "IndicatorsContainer": [Function],
+      "Menu": [Function],
+      "MenuList": [Function],
+      "Option": [Function],
+      "Placeholder": [Function],
+      "SelectContainer": [Function],
+      "SingleValue": [Function],
+      "ValueContainer": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  isDisabled={false}
+  isFocused={false}
+  isSearchable={false}
+  menuAlignment="left"
+  menuMarginTop={8}
+  menuWidth={290}
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Москва",
+        "value": 1,
+      },
+      Object {
+        "label": "Новгород",
+        "value": 2,
+      },
+      Object {
+        "label": "Орел",
+        "value": 3,
+      },
+    ]
+  }
+  size={16}
+  styles={
+    Object {
+      "dropdownIndicator": [Function],
+      "indicatorSeparator": [Function],
+    }
+  }
+/>
+`;
