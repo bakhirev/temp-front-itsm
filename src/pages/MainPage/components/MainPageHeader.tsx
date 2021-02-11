@@ -1,7 +1,7 @@
 import Logo from '../../../logo.svg';
 import {
     Link
-} from "react-router-dom";
+} from 'react-router-dom';
 
 function MainPageHeader() {
     const buttons = [
@@ -13,14 +13,14 @@ function MainPageHeader() {
         'Аварии',
         'Информация',
     ].map((title, index) => (
-        <div key={title} className="main_page__header_item">
+        <div key={title} className='main_page__header_item'>
             <Link to={index ? '/about' : '/'}>{title}</Link>
         </div>
     ));
 
     return (
-        <div className="main_page__header">
-            <img className="main_page__header_logo" src={Logo} alt="VTB"/>
+        <div className='main_page__header'>
+            <img className='main_page__header_logo' src={Logo} alt='VTB'/>
             {buttons}
         </div>
     );

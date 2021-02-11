@@ -1,22 +1,20 @@
-import React from 'react';
-import MainPage from "./pages/MainPage/index";
+import React from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import MainPage from "../../MainPage";
 
-function App() {
-  return (
-    <div className="App">
+function AuthorizationSuccess() {
+    return (
         <Router>
             <Switch>
-                <Route path="/">
+                <Route path='/'>
                     <MainPage/>
                 </Route>
-                <Route path="/about">
+                <Route path='/about'>
                     <MainPage/>
                 </Route>
             </Switch>
         </Router>
-    </div>
-  );
+    );
 }
 
-export default App;
+export default AuthorizationSuccess;

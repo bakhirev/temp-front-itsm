@@ -1,4 +1,4 @@
-import {makeObservable, observable, action} from "mobx";
+import {makeObservable, observable, action} from 'mobx';
 import api from '../api';
 
 class CatalogueListStore {

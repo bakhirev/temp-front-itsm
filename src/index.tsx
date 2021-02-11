@@ -1,10 +1,10 @@
 import React from 'react';
 import {render} from 'react-dom';
-import App from './App';
+import Authorization from './pages/Authorization/index';
 
 render(
     <React.StrictMode>
-        <App/>
+        <Authorization/>
     </React.StrictMode>,
     document.getElementById('root')
 );
