@@ -1,4 +1,7 @@
 import Logo from '../../../logo.svg';
+import {
+    Link
+} from "react-router-dom";
 
 function MainPageHeader() {
     const buttons = [
@@ -9,9 +12,9 @@ function MainPageHeader() {
         'Согласования',
         'Аварии',
         'Информация',
-    ].map((title) => (
-        <div className="main_page__header_item">
-            {title}
+    ].map((title, index) => (
+        <div key={title} className="main_page__header_item">
+            <Link to={index ? '/about' : '/'}>{title}</Link>
         </div>
     ));
 
