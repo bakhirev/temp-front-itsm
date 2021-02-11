@@ -20,7 +20,7 @@ function MainPageHeader() {
 
     return (
         <div className="main_page__header">
-            <img className="main_page__header_logo" src={Logo} alt="VTB" />
+            <img className="main_page__header_logo" src={Logo} alt="VTB"/>
             {buttons}
         </div>
     );
