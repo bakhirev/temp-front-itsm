@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "scss:check": "npx stylelint \"src/**/*.scss\"",
-    "scss:fix": "npx stylelint \"src/**/*.scss\" --fix",
+    "scss:fix": "npx stylelint \"src/**/*.scss\" --fix"
   },
   "eslintConfig": {
     "extends": [
