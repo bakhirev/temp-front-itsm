@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "scss:check": "npx stylelint \"src/**/*.scss\"",
+    "scss:check": "npx stylelint \"src/**/*.scss\" && exit 0",
     "scss:fix": "npx stylelint \"src/**/*.scss\" --fix"
   },
   "eslintConfig": {
@@ -47,7 +47,9 @@
       "last 1 safari version"
     ]
   },
-  "pre-commit": "scss:check",
+  "pre-commit": [
+    "scss:check"
+  ],
   "lint-staged": {
     "*.{tsx,ts}": "eslint --cache --fix",
     "*.scss": "stylelint \"src/**/*.scss\" --fix"
