@@ -47,7 +47,7 @@
       "last 1 safari version"
     ]
   },
-  "pre-commit": "lint-staged",
+  "pre-commit": "scss:check",
   "lint-staged": {
     "*.{tsx,ts}": "eslint --cache --fix",
     "*.scss": "stylelint \"src/**/*.scss\" --fix"
@@ -63,6 +63,7 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "lint-staged": "^10.5.4",
+    "pre-commit": "^1.2.2",
     "stylelint": "^13.10.0",
     "stylelint-order": "^4.1.0"
   }
