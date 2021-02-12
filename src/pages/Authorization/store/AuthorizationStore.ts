@@ -19,7 +19,7 @@ class AuthorizationStore {
     try {
       this.accessToken = await api.getAccessToken();
       this.state = AUTH_STATE.WAITING_GWT_TOKEN;
-      this.gwtToken = await api.getGwtToken(this.accessToken.access_token);
+      this.gwtToken = await api.getGwtToken();
     } catch (e) {
       api.login();
     }

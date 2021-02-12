@@ -17,6 +17,7 @@ const MainPageSearch = observer(() => {
         placeholder={title}
       />
       <button
+        type="button"
         disabled={isLoading}
         className="main_page__search_button"
         onClick={() => {
