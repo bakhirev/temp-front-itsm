@@ -26,7 +26,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "style": "npx stylelint \"src/**/*.scss\" --fix"
+    "scss:check": "npx stylelint \"src/**/*.scss\"",
+    "scss:fix": "npx stylelint \"src/**/*.scss\" --fix",
   },
   "eslintConfig": {
     "extends": [
@@ -46,10 +47,14 @@
       "last 1 safari version"
     ]
   },
+  "lint-staged": [
+    "scss:check"
+  ],
   "devDependencies": {
     "@types/react-router-dom": "^5.1.7",
     "@types/styled-components": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "eslint": "^7.19.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
