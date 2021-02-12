@@ -26,8 +26,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "scss:check": "npx stylelint \"src/**/*.scss\" && exit 0",
-    "scss:fix": "npx stylelint \"src/**/*.scss\" --fix"
+    "js:check": "npx eslint \"src/**/*.{ts,tsx,js}\"",
+    "js:fix": "npx eslint \"src/**/*.{ts,tsx,js}\" --fix",
+    "css:check": "npx stylelint \"src/**/*.{css,scss,sass}\"",
+    "css:fix": "npx stylelint \"src/**/*.{css,scss,sass}\" --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -48,7 +50,8 @@
     ]
   },
   "pre-commit": [
-    "scss:check"
+    "js:check",
+    "css:check"
   ],
   "devDependencies": {
     "@types/react-router-dom": "^5.1.7",
