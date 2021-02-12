@@ -53,7 +53,7 @@
     }
   },
   "lint-staged": {
-    "*.scss": "scss:check"
+    "*.scss": "npm run scss:check"
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.7",
