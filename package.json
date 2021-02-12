@@ -53,9 +53,8 @@
     }
   },
   "lint-staged": {
-    "*.scss": "npm run scss:check",
-    "*.js": "eslint --cache --fix",
-    "*.css": "stylelint --fix"
+    "*.{tsx,ts}": "eslint --cache --fix",
+    "*.scss": "stylelint \"src/**/*.scss\" --fix"
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.7",
