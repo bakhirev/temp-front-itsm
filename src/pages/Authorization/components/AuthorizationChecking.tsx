@@ -11,12 +11,12 @@ const AuthorizationChecking = observer(() => {
   }[state] || '';
 
   return (
-    <div className="authorization_processing">
-      <div className="authorization_processing_container">
-        <p className="authorization_processing__title">
+    <div className="authorization-processing">
+      <div className="authorization-processing-container">
+        <p className="authorization-processing--title">
           проверка авторизации...
         </p>
-        <p className="authorization_processing__description">
+        <p className="authorization-processing--description">
           {description}
         </p>
       </div>

@@ -6,7 +6,7 @@ function MainPageCatalogue() {
     <MainPageCatalogueItem key={Math.random()} />
   ));
   return (
-    <div className="main_page__catalogue">
+    <div className="main-page--catalogue">
       {items}
     </div>
   );

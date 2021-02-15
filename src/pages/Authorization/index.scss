@@ -3,7 +3,7 @@
 .authorization {
   display: block;
 
-  &_processing {
+  &-processing {
     position: fixed;
     top: 0;
     left: 0;
@@ -15,22 +15,22 @@
     background-color: var(--color-neutral-white);
     text-align: center;
 
-    &_container {
+    &-container {
       display: block;
       text-align: center;
     }
 
-    &__title,
-    &__description {
+    &--title,
+    &--description {
       margin: 0;
       padding: 0;
     }
 
-    &__title {
+    &--title {
       color: var(--color-neutral-black);
     }
 
-    &__description {
+    &--description {
       color: var(--color-neutral-40);
     }
   }

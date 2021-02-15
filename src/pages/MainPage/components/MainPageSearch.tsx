@@ -9,17 +9,17 @@ const MainPageSearch = observer(() => {
     : 'введите ключевое слово или номер заявки';
 
   return (
-    <div className="main_page__search">
+    <div className="main-page--search">
       <input
         disabled={isLoading}
-        className="main_page__search_input"
+        className="main-page--search-input"
         type="text"
         placeholder={title}
       />
       <button
         type="button"
         disabled={isLoading}
-        className="main_page__search_button"
+        className="main-page--search-button"
         onClick={() => {
           catalogueListStore.getList();
         }}

@@ -1,14 +1,14 @@
+import http from '../../helpers/http';
+
 export default {
   getAccessToken() {
-    return new Promise((resolve) => {
-      setTimeout(() => resolve({
-        access_token: 'ERTYUIOIYTREWERTYUIUYTRERTYUIOIUYTR',
-      }), 5000);
+    return http.mock({
+      access_token: 'ERTYUIOIYTREWERTYUIUYTRERTYUIOIUYTR',
     });
   },
   getGwtToken() {
-    return new Promise((resolve) => {
-      setTimeout(() => resolve('jwt_token'), 5000);
+    return http.mock({
+      jwt_token: 'ERTYUIOIYTREWERTYUIUYTRERTYUIOIUYTR',
     });
   },
   login() {

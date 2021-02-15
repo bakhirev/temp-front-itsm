@@ -14,14 +14,14 @@ function MainPageHeader() {
     'Аварии',
     'Информация',
   ].map((title, index) => (
-    <div key={title} className="main_page__header_item">
+    <div key={title} className="main-page--header-item">
       <Link to={index ? '/about' : '/'}>{title}</Link>
     </div>
   ));
 
   return (
-    <div className="main_page__header">
-      <img className="main_page__header_logo" src={Logo} alt="VTB" />
+    <div className="main-page--header">
+      <img className="main-page--header-logo" src={Logo} alt="VTB" />
       {buttons}
     </div>
   );
