@@ -65,6 +65,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "pre-commit": "^1.2.2",
     "stylelint": "^13.10.0",
+    "stylelint-force-selector-name-prefix": "^0.2.0",
     "stylelint-force-app-name-prefix": "^0.2.0",
     "stylelint-order": "^4.1.0"
   }

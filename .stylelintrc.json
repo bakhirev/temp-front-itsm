@@ -1,8 +1,13 @@
 {
   "plugins": [
-    "stylelint-order"
+    "stylelint-order",
+    "stylelint-force-selector-name-prefix"
   ],
   "rules": {
+    "plugin/stylelint-force-selector-name-prefix": {
+      "afterPath": "pages",
+      "separator": "kebab-case"
+    },
     "order/order": [
       [
         "custom-properties",
