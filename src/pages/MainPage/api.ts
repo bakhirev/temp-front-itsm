@@ -1,8 +1,7 @@
+import http from '../../helpers/http';
+
 export default {
-    getPosts() {
-        return new Promise((resolve, reject) => {
-            console.log('URL request');
-            setTimeout(() => resolve([1, 2, 3, 4, 5]), 10000)
-        });
-    }
+  getPosts() {
+    return http.mock([1, 2, 3], 1000);
+  },
 };

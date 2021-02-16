@@ -19,13 +19,14 @@
     "isolatedModules": true,
     "noEmit": true,
     "experimentalDecorators": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "alwaysStrict": true
   },
+  "baseUrl": "src",
   "include": [
     "src"
   ],
   "exclude": [
-    "src/components/**/*.ts",
-    "src/components/**/*.tsx"
   ]
 }

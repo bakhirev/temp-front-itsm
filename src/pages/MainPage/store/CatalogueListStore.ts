@@ -1,25 +1,26 @@
-import {makeObservable, observable, action} from 'mobx';
+import { makeObservable, observable, action } from 'mobx';
 import api from '../api';
 
 class CatalogueListStore {
-    isLoading: boolean = false
-    list: any = []
+  isLoading: boolean = false;
 
-    constructor() {
-        makeObservable(this, {
-            isLoading: observable,
-            list: observable,
-            getList: action
-        })
-    }
+  list: any = [];
 
-    async getList() {
-        this.isLoading = true
-        this.list = await api.getPosts()
-        this.isLoading = false
-    }
+  constructor() {
+    makeObservable(this, {
+      isLoading: observable,
+      list: observable,
+      getList: action,
+    });
+  }
+
+  async getList() {
+    this.isLoading = true;
+    this.list = await api.getPosts();
+    this.isLoading = false;
+  }
 }
 
-const catalogueListStore = new CatalogueListStore()
+const catalogueListStore = new CatalogueListStore();
 
 export default catalogueListStore;

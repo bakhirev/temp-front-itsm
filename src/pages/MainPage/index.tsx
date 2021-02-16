@@ -5,13 +5,13 @@ import MainPageSearch from './components/MainPageSearch';
 import MainPageCatalogue from './components/MainPageCatalogue';
 
 function MainPage() {
-    return (
-        <div className='main_page'>
-            <MainPageHeader/>
-            <MainPageSearch/>
-            <MainPageCatalogue/>
-        </div>
-    );
+  return (
+    <div className="main_page">
+      <MainPageHeader />
+      <MainPageSearch />
+      <MainPageCatalogue />
+    </div>
+  );
 }
 
 export default MainPage;

@@ -25,7 +25,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "js:check": "npx eslint \"src/**/*.{ts,tsx,js}\"",
+    "js:fix": "npx eslint \"src/**/*.{ts,tsx,js}\" --fix",
+    "css:check": "npx stylelint \"src/**/*.{css,scss,sass}\"",
+    "css:fix": "npx stylelint \"src/**/*.{css,scss,sass}\" --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -45,8 +49,24 @@
       "last 1 safari version"
     ]
   },
+  "pre-commit": [
+    "js:check",
+    "css:check"
+  ],
   "devDependencies": {
     "@types/react-router-dom": "^5.1.7",
-    "@types/styled-components": "^5.1.7"
+    "@types/styled-components": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "pre-commit": "^1.2.2",
+    "stylelint": "^13.10.0",
+    "stylelint-force-selector-name-prefix": "^0.2.0",
+    "stylelint-force-app-name-prefix": "^0.2.0",
+    "stylelint-order": "^4.1.0"
   }
 }
