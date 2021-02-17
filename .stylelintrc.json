@@ -1,7 +1,7 @@
 {
   "plugins": [
     "stylelint-order",
-    "stylelint-force-selector-name-prefix"
+    "@bakhirev/stylelint-force-selector-name-prefix"
   ],
   "rules": {
     "plugin/stylelint-force-selector-name-prefix": {

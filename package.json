@@ -54,6 +54,7 @@
     "css:check"
   ],
   "devDependencies": {
+    "@bakhirev/stylelint-force-selector-name-prefix": "^0.1.0",
     "@types/react-router-dom": "^5.1.7",
     "@types/styled-components": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
@@ -65,8 +66,6 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "pre-commit": "^1.2.2",
     "stylelint": "^13.10.0",
-    "stylelint-force-selector-name-prefix": "^0.2.0",
-    "stylelint-force-app-name-prefix": "^0.2.0",
     "stylelint-order": "^4.1.0"
   }
 }
