@@ -5,6 +5,9 @@ module.exports = {
     parserOptions: {
         project: './tsconfig.json',
     },
+    rules: {
+        'linebreak-style': ['error', 'unix']
+    },
     ignorePatterns: [
         'ext/**',
         'node_modules/**'
