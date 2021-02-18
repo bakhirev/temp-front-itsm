@@ -54,8 +54,8 @@
     "css:check"
   ],
   "commit-msg": {
-    "regex": "([a-z]{5})",
-    "error-message": "Need more then 5 symbols"
+    "regex": "(SUBO-[0-9]{5})([A-Za-z]{5})",
+    "error-message": "Commit message must be like: SUBO-1 Some description"
   },
   "devDependencies": {
     "@bakhirev/stylelint-force-selector-name-prefix": "^0.1.0",
